@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>kafe Web Site</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!--! header section start  -->
+    <header class="header">
+      <a href="" class="logo">
+        <img src="images/logo1.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a class='active' href='index.html'>ANASAYFA</a>
+        <a href='about.html'>Hakkında</a>
+        <a href='menu.html'>Menü</a>
+        <a href='products.html'>Ürünler</a>
+        <a href='reviev.html'>Yorumlar</a>
+        <a href='contact.html'>İletişim</a>
+        <a href='blogs.html'>Blogs</a>
+      </nav>
+
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="search here"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/Ristretto.jpg" alt="menu" />
+          <div class="content">
+            <h3>Ristretto</h3>
+            <div class="price">₺49.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/latte.webp" alt="menu" />
+          <div class="content">
+            <h3>latte</h3>
+            <div class="price">₺79.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/latte macchiato 1000 .webp" alt="menu" />
+          <div class="content">
+            <h3>latte macchiato</h3>
+            <div class="price">₺94.99/-</div>
+          </div>
+        </div>
+        
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+    <!--! header section end  -->
+
+    <!--! home section start  -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>KAHVE ZAMANI...</h3>
+        <p>
+          DOSTLARLA İÇİLEN KAHVE NEŞEDİR. KAHKALAR KÖPÜKLERİN ÜZERİNDE
+        </p>
+        <a href="#" class="btn">Daha Fazla</a>
+      </div>
+    </section>
+    <!--! home section end  -->
+
+    <!--! menu section start  -->
+    <section class="menu" id="menu">
+      <h1 class="heading">Kahve <span>menülerimiz</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/Ristretto.jpg" alt="menu" />
+            
+            <h3>RİSTRETTO</h3>
+            <div class="price">₺49.99 <span>59.99</span></div>
+            <span class="menu-category">Espressonun daha az suyla hazırlandığı en sert kahve türlerindendir. Espressonun yoğun ve yüksek kafein sevenler bir tık daha fazlasını isterlerse mutlaka denemeliler. 
+            </span>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">sipariş</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/latte.webp" alt="menu" />
+            
+            <h3>LATTE</h3>
+            <div class="price">₺94.99 <span>89.99</span></div>
+            <span class="menu-category">Baristalar bir latte hazırlarken espressonun üzerine sütle işlediği motiflerle harikalar yaratabilir. Adeta lezzetinden öne geçen sunumlarıyla önümüze gelir</span>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn">sipariş</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/latte macchiato.webp" alt="menu" />
+            
+            <h3>LATTE MACCHİATO</h3>
+            <div class="price">₺94.99 <span> 104.99</span></div>
+            <span class="menu-category">Süt, kahve ve süt köpüğünden oluşur. Latteden farklı olarak daha büyük cam bardakta sunulur ve dolayısıyla süt oranı daha fazla olur. Hafif bir içim sunar ve lezzetlendirmek için çeşitli aromatik şuruplar kullanılabilir.
+            </span>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn"> sipariş</a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!--! menu section end  -->
+
+    <!--! products section start  -->
+    <section class="products" id="products">
+      <h1 class="heading">özel <span>ürünler</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">ÖZEL YAPIM</span>
+            <a href="#" class="name">CUPCAKE</a>
+          </div>
+          <div class="image">
+            <img src="images/kapcake.jpg " alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">₺24.99</b>
+              <span class="amount">110gr / 300 Cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">ÖZEL YAPIM</span>
+            <a href="#" class="name">COOKİE</a>
+          </div>
+          <div class="image">
+            <img src="images/kuki.jpg" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">₺14.99</b>
+              <span class="amount">110gr / 300 Cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box dark-bg">
+          <div class="box-head">
+            <span class="title">ÖZEL YAPIM </span>
+            <a href="#" class="name">SAN SEBASTİAN</a>
+          </div>
+          <div class="image">
+            <img src="images/Sansebastian.jpg" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">₺99.99</b>
+              <span class="amount">110gr / 300 Cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! products section end  -->
+
+    <!--! about section start  -->
+    <section class="about" id="about">
+      <h1 class="heading">kahve  <span>hakkında</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/KAHVE.jpg" alt="about" />
+          <img src="images/KAHVE2.jpg" alt="about" />
+          <img src="images/KAHVE3.webp" alt="about" />
+        </div>
+        <div class="content">
+          <h3>KAHVENİN TARİHSEL YOLCULUĞU </h3>
+          <p>
+            Kanuni Sultan Süleyman döneminde, 16. yüzyılda, Yemen Valisi Özdemir Paşa, Yemen’de içtiği ve çok sevdiği kahveyi İstanbul’a getirdi. 
+
+Kahve, kısa zamanda itibarlı bir içecek olarak saray mutfağında yerini aldı ve büyük ilgi gördü. Saray görevleri arasına “kahvecibaşı” adında bir de rütbe eklendi. Padişahın ya da bağlı olduğu devlet büyüğünün kahvesini pişirmekle görevli olan kahvecibaşı, sadık ve sır tutmasını bilenler arasından seçilirdi. Osmanlı tarihinde kahvecibaşılıktan sadrazamlığa yükselenlere bile rastlandı.
+          </p>
+          <p>
+            Saraydan konaklara ardından evlere giren kahve, İstanbul halkının kısa sürede tutkunu olduğu bir lezzet haline geldi. Satın alınan çiğ kahve çekirdekleri tavalarda kavrulup, dibeklerde dövüldükten sonra cezvelerde pişiriliyordu.
+
+Kahvenin ünü sarayı, konakları ve evleri de aştı.
+
+İlk kahvehaneler 1554’te Taht-ul Kale’de açıldı. Kaleiçi anlamına gelen bu bölge bugün Tahtakale olarak bilinmektedir. Buradaki Tahmis Sokağı da adını kurukahve anlamına gelen “tahmis”ten aldı. Kahve ve kahvehane kültürü hızla, sosyal hayatın vazgeçilmez bir parçası oldu. Öncelikle dönemin okur yazar kesimi ardından bütün halk kahvehanelerde toplanmaya başladı. Kısa zamanda sayıları 55’e yükselen ve genellikle manzaralı yerlere kurulan kahvehanelerde; günün her saati kitap ve güzel yazılar okunur, tavla ya da satranç oynanır, şiir ve edebiyat sohbetleri yapılırdı. Karagöz, ortaoyunu gibi ulusal oyunların ilk önce oynandığı yerler de bu kahvehaneler oldu.
+          </p>
+          <p>
+            İstanbulluların kahveye olan tutkuları yüzyıllar boyunca hiç değişmedi. İtalyan yazar Edmondo de Amicis 18. yüzyıl sonlarındaki bir yazısında bu tutkuya şöyle yer vermiştir: “Galata Kulesi’nin ve Bayezid Kulesi’nin tepelerinde kahve vardır, vapurlarda kahve vardır, mezarlık içinde kahve vardır, resmi dairelerde ve hamamlarda kahve vardır, çarşı içinde kahve vardır. İnsan, İstanbul’un neresinde bulunursa bulunsun, etrafına hiç bakmadan sadece bir bağırması yeterlidir: ‘Kahveci’… Üç dakika sonra, önünüzde bir kahve tütmeye başlar.”
+          </p>
+          <a href="#" class="btn">devam et</a>
+        </div>
+      </div>
+    </section>
+    <!--! about section end  -->
+
+    <!--! review section start  -->
+    <section class="review" id="review">
+      <h1 class="heading">müşteri<span>yorumları</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Aşırı güzel bir mekan güler yüzlü hizmet lezzetli tatlılar aşırı ekonomik herkese tavsiye ederim kesinlikle pişman olunmayacak bir yer ayrıca işletme sahipleri çok nazikler
+          </p>
+          
+          <h3>MAHMUT ŞENTÜRK</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Lezzetli ve samimi bir ortam aile sıcaklığı ile müşterilerini karşılayan güler yüzlü bir işletme emeklerinden ötürü teşekkür ederiz
+          </p>
+          
+          <h3>MUSTAFA YILMAZ </h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/quote.png" alt="quote" />
+          <p>
+            Hamur işi, pasta türleri, mantı ve sıcak içecekleri harikaydı. Hizmet kusursuz. Teşekkür ederiz.
+          </p>
+          
+          <h3>ALİ ŞİMŞEK</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! review section end  -->
+
+    <!--! contact section start  -->
+    <section class="contact" id="contact">
+      <h1 class="heading">iletişim <span>-rezervasyon</span></h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.7353499913334!2d35.5552618!3d38.700922999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152b13603148258f%3A0x787aab0380c1f734!2zRlJFRVPEsEE!5e0!3m2!1str!2str!4v1717355367081!5m2!1str!2str"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form>
+          <h3>İLETİŞİM</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="ad - soyad" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="telefon numarası" />
+          </div>
+          <input type="submit" class="btn" value="gönder" />
+        </form>
+      </div>
+    </section>
+    <!--! contact section end  -->
+
+    <!--! blogs section start  -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">blog<span> sayfası</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/blogs1.jpeg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Kahve Makinesi Nasıl Temizlenir?</a>
+            <span>FREESİA / 15 MAYIS ,2024</span>
+            <p>
+              Günlük enerji ve mutluluğunuzun kaynağı olan kahve makinelerinizi ne sıklıkla ve nasıl temizliyorsunuz? Genellikle göz ardı edilen bu rutini sizin kolaylaştırmak için buradayız! Farklı kahve makineleri için temizlik adımlarını bu içeriğimizde sıraladık. Hemen göz atın!
+            </p>
+            <a href="#" class="btn">oku</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blogs2.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Kahve Öğütücü Alırken Nelere Dikkat Edilmeli?</a>
+            <span>FREESİA / 22 NİSAN ,2024</span>
+            <p>
+              Sizin için en uygun kahve öğütücüsünü nasıl bulabilirsiniz? Bu sorunun cevabı bu içeriğimizde! İhtiyacınıza en uygun özelliklere sahip teknik ve işlevsel detaylara göz atın, en ideal seçeneği keşfedin!
+            </p>
+            <a href="#" class="btn">oku</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/blogs3.jpg" alt="blog" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">Kapsül Kahve: Pratik ve Lezzetli Bir Kahve Deneyimi
+            </a>
+            <span>FRESİA / 10 MART, 2024</span>
+            <p>
+              Yeni nesil kahve deneyimi sunan kapsül kahve ofislerden evlere ve coffee shop’lara kadar ulaştı. Peki bu yeni deneyimi ne kadar yakından tanıyoruz? Bu içeriğimizde mercek altına aldığımız konularla birlikte kapsül kahveyi her yönüyle öğrenebilirsin!
+            </p>
+            <a href="#" class="btn">oku</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! blogs section end  -->
+
+    <!--! footer section start  -->
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Search" />
+        <button class="btn btn-primary">ara</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a class='active' href='index.html'>ANASAYFA</a>
+        <a href='about.html'>Hakkında</a>
+        <a href='menu.html'>Menü</a>
+        <a href='products.html'>Ürünler</a>
+        <a href='reviev.html'>Yorumlar</a>
+        <a href='contact.html'>İletişim</a>
+        <a href='blogs.html'>Blogs</a>
+      </div>
+
+      <div class="credit">
+       SİZİN İÇİN <span>FREESİA COFFİE</span> | HER ZAMAN BEKLERİZ.
+      </div>
+    </section>
+    <!--! footer section end  -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

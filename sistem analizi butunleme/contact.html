@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>kafe Web Site</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!--! header section start  -->
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="images/logo1.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href='index.html'>ANASAYFA</a>
+        <a href='about.html'>Hakkında</a>
+        <a href='menu.html'>Menu</a>
+        <a href='products.html'>Ürünler</a>
+        <a href='reviev.html'>Yorumlar</a>
+        <a href='contact.html' class='active'>İletişim</a>
+        <a href='blogs.html'>Blogs</a>
+      </nav>
+
+      <div class="buttons">
+        <button id="search-btn">
+          <i class="fas fa-search"></i>
+        </button>
+        <button id="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button id="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="search here"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/Ristretto.jpg" alt="menu" />
+          <div class="content">
+            <h3>Ristretto</h3>
+            <div class="price">₺49.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/latte.webp" alt="menu" />
+          <div class="content">
+            <h3>latte</h3>
+            <div class="price">₺79.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <i class="fas fa-times"></i>
+          <img src="images/latte macchiato 1000 .webp" alt="menu" />
+          <div class="content">
+            <h3>latte macchiato</h3>
+            <div class="price">₺94.99/-</div>
+          </div>
+        </div>
+        
+        <a href="#" class="btn">checkout now</a>
+      </div>
+    </header>
+    <!--! header section end  -->
+
+  
+
+  
+   
+<!--! contact section start  -->
+<section class="contact" id="contact">
+    <h1 class="heading">İLETİŞİM <span>REZERVASYON</span></h1>
+    <div class="row">
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3113.735349991333!2d35.5552618!3d38.700923!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152b13603148258f%3A0x787aab0380c1f734!2zRlJFRVPEsEE!5e0!3m2!1str!2str!4v1717360254392!5m2!1str!2str"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <form>
+        <h3>REZERVASYON</h3>
+        <div class="inputBox">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="AD-SOYAD" />
+        </div>
+        <div class="inputBox">
+          <i class="fas fa-envelope"></i>
+          <input type="email" placeholder="email" />
+        </div>
+        <div class="inputBox">
+          <i class="fas fa-phone"></i>
+          <input type="number" placeholder="TELEFON NUMARASI" />
+        </div>
+        <input type="submit" class="btn" value="GÖNDER" />
+      </form>
+    </div>
+  </section>
+  <!--! contact section end  -->
+
+   
+  
+
+    <!--! footer section start  -->
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Search" />
+        <button class="btn btn-primary">search</button>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href='index.html'>ANASAYFA</a>
+        <a href='about.html'>Hakkında</a>
+        <a href='menu.html'>Menu</a>
+        <a href='products.html'>Ürünler</a>
+        <a href='reviev.html'>Yorumlar</a>
+        <a href='contact.html' class='active'>İletişim</a>
+        <a href='blogs.html'>Blogs</a>
+      </div>
+
+      <div class="credit">
+        SİZİN İÇİN <span>FREESİA COFFİE</span> | HER ZAMAN BEKLERİZ.
+      </div>
+    </section>
+    <!--! footer section end  -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
